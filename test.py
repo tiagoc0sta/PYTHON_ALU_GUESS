@@ -1,2 +1,5 @@
-valores = [ 0, 0, 0, 1, 2, 3, 4]
-print(valores.count(0))
+inteiros = [1,3,4,5,7,8,9]
+pares = [x for x in inteiros if x % 2 == 0]
+
+
+print(pares)
